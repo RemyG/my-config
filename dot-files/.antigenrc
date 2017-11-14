@@ -1,0 +1,17 @@
+antigen use oh-my-zsh
+
+antigen bundles <<EOBUNDLES
+command-not-found
+git
+docker
+
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+zsh-users/zsh-syntax-highlighting
+
+rupa/z
+EOBUNDLES
+
+antigen theme bhilburn/powerlevel9k
+
+antigen apply
