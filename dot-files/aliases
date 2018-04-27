@@ -1,0 +1,7 @@
+# Console
+alias cls='tput reset'
+
+# Backup file
+backup() {
+    mv $1 $1".back-$(date +'%Y%m%d-%H%M%S')"
+}
